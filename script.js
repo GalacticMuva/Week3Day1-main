@@ -24,7 +24,7 @@ async function captureFormData() {
         submitter_name: userName,
         submitter_email: userEmail,
         message_content: userMessage,
-        submission_time: new Date().toISOString() // timestamp
+        submissionTime: new Date().toISOString() // timestamp
     };
 
         const requestUrl = `${SUPABASE_URL}/rest/v1/${SUPABASE_TABLE_NAME}`;
