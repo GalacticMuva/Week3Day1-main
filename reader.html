@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Mode | The Creative Archive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"><a href="index.html" style="color: inherit; text-decoration: none;">The Archive.</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">← Back to Collections</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="reader-container">
+        <div id="reader-spinner" class="spinner"></div>
+
+        <article id="story-content" class="hidden">
+            <header class="story-header">
+                <h1 id="story-title">Story Title Loading...</h1>
+            </header>
+            
+            <div id="story-body">
+                </div>
+
+            <div style="margin-top: 40px; text-align: center;">
+                <a href="index.html" class="cta-button">Return to Archive</a>
+            </div>
+        </article>
+    </main>
+
+    <script src="reader.js"></script>
+</body>
+</html>

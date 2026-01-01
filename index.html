@@ -29,7 +29,7 @@
             <div class="hero-content">
                 <h1>Where Every Story Finds a Home.</h1>
                 <p>A non-profit, open-source repository built by creators, for creators. We preserve and celebrate fanworks across every medium and genre.</p>
-                <a href="#categories" class="cta-button">Browse Stories</a>
+                <a href="#categories" class="cta-button">Browse Collections</a>
             </div>
         </section>
 
@@ -37,9 +37,7 @@
         <section id="categories" class="services-section">
             <h2>Explore Our Top Categories</h2>
             <div id="products-list" class="service-cards">
-                
-               
-
+                <div id="loading-spinner" class="spinner"></div>  
             </div>
         </section>
 
@@ -56,10 +54,11 @@
                 <label for="message">Message / Report Details:</label>
                 <textarea id="message" name="message" rows="6" required></textarea>
 
-                <button type="submit" onclick="captureFormData()">Save</button>
+                <button type="submit" onclick="captureFormData()">Archive Message</button>
                 <p id="submissionStatus"></p>
             </form>
         </section>
+
 
     </main>
 
@@ -74,6 +73,7 @@
             </div>
         </div>
     </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
